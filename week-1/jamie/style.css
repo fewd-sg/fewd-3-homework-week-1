@@ -60,6 +60,11 @@ li a:hover {
   margin: 1%;
 }
 
+a {
+  color: #fc92a4;
+  text-decoration: none;
+}
+
 #design {
   font-size: 400%;
 }
