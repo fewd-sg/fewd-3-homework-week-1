@@ -1,0 +1,96 @@
+body {
+		background-color: #fff;
+
+	}
+
+h1 {
+	color: rgb(84, 84, 84);
+	text-align: center;
+	margin: 2em 8em 2em 8em;
+	font-family: lato; 
+}
+
+h2 {
+	color: rgb(84, 84, 84);
+	text-align: center;
+	padding: 4em 8em 3em 8em;
+	font-family: lato; 
+}
+
+h3 {
+	color: rgb(84,84,84);
+	text-align: center;
+	padding: 10em 10em 2em 10em;
+}
+
+
+
+p {
+	color: rgb(148, 148, 148);
+	text-align:center;
+	padding: 0em 15em 0em 15em;
+	font-family: lato-light; 
+
+}
+
+ul p {
+	text-align: center;
+}
+
+ul {
+	padding: 0em 20em 5em 20em;
+}
+
+li {
+	color: rgb(148, 148, 148);
+	text-align: center;
+	list-style-type: none;
+	font-family: lato-light; 
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+div img {
+	padding-top: 5em;
+	padding-bottom: 2em;
+}
+
+div a {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    margin: width;
+}
+
+td{
+	font-family: lato-light; 
+}
