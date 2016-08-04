@@ -35,8 +35,13 @@ p
   font-size: 12px;
   color: #000000;
   text-align: center;
+}
 
-
+p.footer
+{
+  text-decoration: overline;
+  font-style: italic;
+  font-family: 'Playfair Display';
 }
 
 ul
@@ -49,16 +54,29 @@ ul
 
 }
 
-ol.workexperience
+ul.workexperience
 {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   text-align: center;
-  margin : 0px 20px 20px 50px;
+/*  margin : 10px 10px 10px 10px;*/
+  color: #000000;
   list-style-position: inside;
   display: inline-flex;
 
 }
+
+ol.experience
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+/*  margin : 10px 10px 10px 10px;*/
+  color: #000000;
+  list-style-position: inside;
+
+}
+
 
 li
 {
@@ -75,7 +93,10 @@ li.menu
 
 }
 
+img.portfolio
+{
 
+}
 
 body
 {
