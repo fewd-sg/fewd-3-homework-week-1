@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: hsla(223, 100%, 33%, 1.0);
+	padding: 15px;
+}
+h1, h2, h3, h4, h5 {
+	color: #fff;
+}
+ul li {
+	color: #fff;
+	margin-top:20px;
+	margin-bottom: 50px;
+	list-style-type: none;
+	display:inline-block;
+}
+ul li p {
+	display: inline-block;
+}
+ul li img {
+	float: left;
+}
+.img-responsive {
+	border: #000000 solid 1px;
+	margin-bottom: 15px;
+}
+
