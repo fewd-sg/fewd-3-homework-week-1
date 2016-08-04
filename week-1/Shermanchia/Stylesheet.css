@@ -3,13 +3,12 @@
 }
 
 h1{
-  font-family: 'Lato', sans-serif;
   font-size: 2.5em;
   font-weight: bold;
   color: #312f3a;
 }
 
-ul{
+.nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,28 +20,26 @@ ul{
   width: 100%;
 }
 
-
 li a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-weight: lighter;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
 }
 
 li a:hover {
-    background-color: #1e23fe;
+  background-color: #1e23fe;
 }
 
 div{
   padding:30px;
   margin-top:10px;
-  background-color:#f5f5f5;
-  height:1500px;
-
+  background-color:white;
+  height:auto;
 }
 
 body{
@@ -57,17 +54,17 @@ div.img {
 }
 
 div.img img{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 h2{
-    padding: 0px;
-    margin-top: -0px;
-    text-align: Left;
+  padding: 0px;
+  margin-top: -0px;
+  text-align: Left;
 }
 
 p{
-    padding: 0px;
-    text-align: Left;
+  padding: 0px;
+  text-align: Left;
 }
