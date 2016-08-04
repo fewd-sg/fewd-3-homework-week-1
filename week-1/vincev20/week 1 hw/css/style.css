@@ -8,71 +8,55 @@ body {
 
 }
 
-#container {
-
-    //background-image: url("../images/wallpaper1.jpg");
-    width: 100%;
-    height: 400px;
-    display: block;
-    margin: auto;
-    margin-top: 0;
-    padding-top: 0;
-
-}
-
-#header {
-  //background-color: #313131;
-  height: 1000px;
-  width: 80%;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom:0;
-  padding-top: 0;
-  padding-bottom: 0;
-  //font-family: 'Libre Baskerville', serif;
-  //font-size: 1.5em;
-
-}
-
 ul {
   padding: 0px 30px;
-
 }
-
-#aboutHeader {
-  font-size: 3em;
-  font-family: 'Libre Baskerville', serif;
-  //font-family: 'Yeseva One', cursive;
-  color: black;
-  color: rgb(0, 0, 150);
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-
-#resumeHeader {
-  font-size: 3em;
-  font-family: 'Libre Baskerville', serif;
-  //font-family: 'Yeseva One', cursive;
-  color: rgb(0, 0, 150);
-  padding-left: 50px;
-  margin-bottom: 0px;
-
-}
-
 
 h2 {
 
   font-style: italic;
   border-bottom: 2px solid rgb(0, 0, 150);
   padding: 0px 30px 15px 50px;
-  //width: 80%;
-  //margin: auto;
+  color: rgb(0, 0, 150);
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0px;
+
 }
+
+a {
+  color: rgb(0, 0, 150);
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: rgb(0, 0, 230);
+  font-weight: bold;
+
+}
+
+p {
+  color: rgb(0, 0, 150);
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0px;
+  padding: 0px 80px;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border: 1px solid black;
+
+}
+
 
 .imageParagraph {
   padding-top: 10px;
   border-bottom: 2px dashed rgb(0, 0, 150);
-
   padding-bottom: 30px;
   width: 80%;
   margin: auto;
@@ -84,45 +68,6 @@ h2 {
   margin: auto;
   font-weight: bold;
   font-size: 1.2em;
-}
-
-a,h2 {
-  color: rgb(0, 0, 150);
-  font-family: 'Libre Baskerville', serif;
-  margin-bottom: 0px;
-
-}
-
-a:hover {
-  color: rgb(0, 0, 240);
-
-}
-
-
-p {
-  color: rgb(0, 0, 150);
-  font-family: 'Libre Baskerville', serif;
-  margin-bottom: 0px;
-  padding: 0px 80px;
-
-}
-
-#myself {
-  color: rgb(0, 0, 150);
-  font-family: 'Libre Baskerville', serif;
-  margin-bottom: 0px;
-  padding: 0px 30px 50px;
-  border-bottom: 2px dashed rgb(0, 0, 150);
-
-}
-
-
-
-
-#schoolList {
-  color: rgb(0, 0, 150);
-  font-family: 'Libre Baskerville', serif;
-padding: 0px 0px 200px 100px;
 }
 
 .schoolItem {
@@ -137,9 +82,72 @@ padding: 0px 0px 200px 100px;
 
 }
 
-a {
-    text-decoration: none;
+.experience {
+  width: 87%;
+  margin: auto;
+  padding: 30px 30px 15px 10px;
+
 }
+
+
+#container {
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#header {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom:0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#aboutHeader {
+  font-size: 5em;
+  font-family: 'Reem Kufi', sans-serif;
+  color: black;
+  color: rgb(0, 0, 150);
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+#resumeHeader {
+  font-size: 5em;
+  font-family: 'Reem Kufi', sans-serif;
+  color: rgb(0, 0, 150);
+  padding-left: 70px;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+
+}
+
+
+
+#myself {
+  color: rgb(0, 0, 150);
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0px;
+  padding: 0px 30px 50px;
+  border-bottom: 2px dashed rgb(0, 0, 150);
+  font-size: 1.2em;
+
+}
+
+#schoolList {
+  color: rgb(0, 0, 150);
+  font-family: 'Libre Baskerville', serif;
+padding: 0px 0px 200px 100px;
+}
+
+
+
 
 #firstLink {
 
@@ -149,13 +157,6 @@ a {
 }
 
 
-img {
-  display: block;
-  margin: auto;
-  width: 80%;
-  border: 1px solid black;
-
-}
 
 #resumeNav {
   padding-left: 100px;
@@ -167,3 +168,4 @@ img {
   font-size: 1.2em;
 
 }
+
