@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1, h2, h3, h4, p, ul, li{
+    padding: 5px;
+    font-family: monospace;
+    list-style: none;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+p, li{
+    font-size: 15px;
+}
+img{
+    border: solid 5px blue;
+}
+div{
+    margin:5px;
+    padding: 5px;
+}

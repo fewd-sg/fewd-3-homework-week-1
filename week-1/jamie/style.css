@@ -1,0 +1,98 @@
+header {
+  font-family: Quicksand, Verdana, sans-serif;
+  word-spacing: 0.5em;
+  margin: 1%;
+  text-align: center;
+}
+
+body {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url("sommerfleurbg2.jpg");
+}
+
+#content {
+  overflow: auto;
+}
+
+#feature, #footer {
+  margin: 1%;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: inline;
+  text-align: left;
+  list-style-type: none;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #222222
+}
+
+li a:hover {
+  color: #fc92a4;
+  background-color: #f8f8f8;
+}
+
+.feature {
+  font-family: 'Playfair Display', Times, serif;
+  margin: 1%;
+}
+
+a {
+  color: #fc92a4;
+  text-decoration: none;
+}
+
+a hover {
+  color: #f8f8f8;
+}
+
+#design {
+  font-size: 400%;
+}
+
+#nav, #footer {
+  color: #555555;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+.feature, .specialize {
+  margin-bottom: 1em;
+}
+
+.entry {
+  width: 220px;
+  float: left;
+  margin: 10px;
+  height: 198px;
+}
+
+img.large {
+  width: 280px;
+  height: 280px;
+  margin: 1%;
+}

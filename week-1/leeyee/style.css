@@ -1,0 +1,153 @@
+body{
+  font-size:15px;
+  background-color: #dbb3ab;
+  font-family: Helvetica Neue;
+}
+
+nav{
+ list-style: none;
+ font-size:40px;
+ font-weight: 100;
+ position: fixed;
+ width: 200px;
+ height:100%;
+ background-color: #000000;
+ top:0px;
+ }
+
+nav a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav li.current a, nav li:hover a{
+  color: #00f5ff;
+  text-shadow: 1px 1px #000;
+}
+
+footer{
+  position: fixed;
+  left:120px;
+  bottom: 240px;
+  font-size:10px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+#content{
+  min-height: 100%;
+  position: absolute;
+  top: 0px;
+  width: 74%;
+  margin: 0px 0px 100px 240px;
+  padding-left: 70px;
+  background-color: #ffffff;
+}
+
+#welmsg{
+   font:italic bold 100px Helvetica Neue;
+   text-align: center;
+   font-weight: 200;
+   margin: 5px 200px 0px 0px;
+}
+
+.msg{
+   width:80%;
+   margin: 20px 100px 0px 0px;
+   padding: 10px;
+   line-height: 180%;
+}
+
+.aboutsubtitle{
+   font:bold 18px Helvetica Neue;
+}
+
+.aboutlist{
+  width:80%;
+  padding: 10px;
+  margin-left: 20px;
+  line-height: 180%;
+  list-style-type: square;
+}
+
+.msg a{
+  text-decoration: none;
+  color: #ff6600;
+}
+
+a:hover{
+  color: #495d72;
+}
+
+
+blockquote{
+  font:italic bold 30px Georgia;
+  text-align: center;
+  font-weight: 200;
+  text-align: center;
+}
+
+blockquote:before{
+  content: "\201C";
+}
+
+blockquote:after{
+  content: "\201D";
+}
+
+blockquote:before, blockquote:after{
+  font-size: 80px;
+  color: #7a7a7a;
+}
+
+
+.highlight{
+  color:#e49969;
+  background: none;
+}
+
+/*contact*/
+#relaxrcontent, #citipixcontent, #startupcontent{
+  height:165px;
+  width:200px;
+  opacity:0.9;
+  float:left;
+  margin: 10px;
+}
+
+#relaxrcontent{
+  background: url(images/relaxr.png) no-repeat;
+  background-size: contain;
+}
+
+#citipixcontent{
+  background: url(images/citipix.png) no-repeat;
+  background-size: contain;
+}
+
+#startupcontent{
+  background: url(images/startup.png) no-repeat;
+  background-size: contain;
+}
+
+#relaxr, #citipix, #startup{
+    opacity:0;
+}
+
+#relaxrcontent:hover #relaxr, #citipixcontent:hover #citipix, #startupcontent:hover #startup{
+  height:165px;
+  width:200px;
+  background-color: #d3d3d3;
+  opacity:0.9;
+  color:#000000;
+  font-size:15px;
+  font-weight:200;
+  line-height: 150%;
+  padding: 0px 0px 0px 5px;
+}
+
+#bottom{
+ position: absolute;
+ left: 50%;
+ bottom: -80px;
+}
